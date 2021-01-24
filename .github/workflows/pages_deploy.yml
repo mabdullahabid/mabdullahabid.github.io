@@ -31,10 +31,9 @@ jobs:
 
       - name: Configuration File
         run: |
-          cat >  ${GITHUB_WORKSPACE}/loconotion/example/example_site.toml  << EOF
-          ${GITHUB_WORKSPACE}/site_config.toml
-          EOF
-
+          cd ${GITHUB_WORKSPACE}
+          cat site_config.toml >  loconotion/example/example_site.toml
+          
       - name: Install and Run
         run: |
           cd ${GITHUB_WORKSPACE}/loconotion
