@@ -66,7 +66,7 @@ page = "https://www.notion.so/mabdullahabid/Muhammad-Abdullah-Abid-d3abf13ed1524
   # regardless of their original path
   [[site.inject.body.script]]
   type="text/javascript"
-  src="/custom-script.js"
+  src="/example/custom-script.js"
 
 ## Individual Page Settings ##
 # the [pages] table defines override settings for individual pages, by defining 
