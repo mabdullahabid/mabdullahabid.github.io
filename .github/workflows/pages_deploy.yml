@@ -33,6 +33,7 @@ jobs:
         run: |
           cd ${GITHUB_WORKSPACE}
           cat site_config.toml >  loconotion/example/example_site.toml
+          cat custom-script.js >  loconotion/example/custom-script.js
           
       - name: Install and Run
         run: |
